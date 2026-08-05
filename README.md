@@ -25,33 +25,40 @@ What makes me happiest is not only building something that works, but also discu
 
 ## 🤖 Machine Learning & AI
 
-### 🛡️ VLM-Based Security Action Detection for Real-Time Video Monitoring
+### VLM-Based Security Action Detection
 
-This project explores how vision-language models can detect security-relevant actions in video streams with limited labeled data. Using Fujitsu Intelligence’s annotated video dataset, our team developed an end-to-end action recognition pipeline that converts raw videos into fixed-length clips, aligns them with CVAT annotations, and evaluates multiple model families, including CLIP, X-CLIP, ViCLIP, Qwen-VL, prototype-based methods, and CoOp prompt tuning.
+A real-time video monitoring system for detecting security-relevant actions with vision-language models and limited labeled data.
 
-The project focuses on practical deployment trade-offs rather than offline accuracy alone. We evaluated models across accuracy, precision, recall, F1-score, inference latency, prompt sensitivity, and output reliability. Our best-performing solution combines a fast CoOp-tuned X-CLIP detector with a lightweight Qwen-VL verifier for uncertain cases, achieving a **Macro-F1 score of 0.858** while maintaining low latency for near-real-time monitoring.
+This project turns raw surveillance-style videos into an end-to-end action recognition workflow: video clipping, CVAT annotation alignment, model training/evaluation, and webcam-based inference. We compared CLIP, X-CLIP, ViCLIP, Qwen-VL, prototype-based methods, and CoOp prompt tuning across both model quality and deployment practicality.
 
-The system supports multiple security-related actions, including fence jumping, vault jumping, falling down, kicking, and punching. It includes both offline evaluation workflows and a real-time webcam inference pipeline.
+**Highlights**
+- Built a full video action detection pipeline from raw videos to real-time inference
+- Processed annotated video data into fixed-length clips aligned with CVAT labels
+- Evaluated VLM-based methods across accuracy, Macro-F1, latency, prompt sensitivity, and reliability
+- Combined a CoOp-tuned X-CLIP detector with a lightweight Qwen-VL verifier for uncertain cases
+- Achieved **0.858 Macro-F1** on multi-class security action recognition
+- Supported actions including fence jumping, vault jumping, falling down, kicking, and punching
 
-**Technologies:** Python, PyTorch, OpenCV, CLIP, X-CLIP, Qwen-VL, CoOp, SVM, CVAT
+**Tech Stack:** Python, PyTorch, CLIP, X-CLIP, ViCLIP, Qwen-VL, CoOp, CVAT
 
 🔗 [View the project on GitHub](https://github.com/2004wan/VLM-Security-Action-Detection)
 
 
-### FoodVision Transfer Learning Platform
-Built a transfer-learning experimentation and visualization platform based on the Food-101 dataset.
+### FoodVision Transfer Learning Studio
 
-- Compared ResNet18 and EfficientNetV2-S
-- Conducted 10 experiments involving baseline training, BN tuning, LoRA, TSA, and full fine-tuning
-- Achieved **83.9% clean accuracy** and **68.6% robustness accuracy** with EfficientNetV2-S and BN tuning
+A GUI-first transfer learning workspace for image classification experiments, built around Food-101 and extensible model customization workflows.
 
-### AI-Generated Code Testing Research
-Analyzed testing practices in GitHub pull requests involving AI-generated code.
+This project combines a PySide6 desktop interface with reproducible PyTorch training pipelines, checkpoint management, prediction tools, robustness evaluation, Grad-CAM visualization, and structured custom model generation. It supports comparing baseline fine-tuning strategies with PEFT-style methods such as LoRA, DoRA, TSA, BN tuning, and full fine-tuning.
 
-- Designed logic to identify test presence, test types, and human feedback
-- Processed and summarized large-scale GitHub pull-request data
-- Found that approximately **1.8%** of the analyzed AI-related pull requests included detectable testing changes
+**Highlights**
+- Built an end-to-end desktop studio for training, prediction, evaluation, and experiment analysis
+- Implemented reusable PyTorch pipelines for image classification and checkpoint-based inference
+- Designed a custom model canvas for generating structured model variants from JSON specs
+- Added robustness evaluation across curated test splits and visual comparison tools
+- Integrated experiment logs, accuracy curves, confusion matrices, efficiency plots, and Grad-CAM previews
 
+**Tech Stack:** Python, PyTorch, Torchvision, PySide6, Pillow, Matplotlib, JSON-based model specs
+🔗 [View the project on GitHub]([https://github.com/2004wan/VLM-Security-Action-Detection](https://github.com/2004wan/ModelCraft-Studio))
 ---
 
 ## 📊 Data Analytics & Visualization
