@@ -66,12 +66,25 @@ This project combines a PySide6 desktop interface with reproducible PyTorch trai
 
 ## 📊 Data Analytics & Visualization
 
-### Vancouver Crime Analytics Dashboard
-Developed an interactive dashboard based on Vancouver crime data from 2019 to 2023.
+**VanCrime Lens**  
+An interactive geospatial dashboard for exploring Vancouver crime patterns across neighbourhoods, time periods, and crime categories.
 
-- Supported filtering by neighborhood, time, crime type, and geographic location
-- Created maps, trend charts, and interactive analytical views
-- Designed the platform for renters, homebuyers, tourists, and newcomers
+This project turns public Vancouver crime records into an end-to-end visual analytics workflow: data cleaning, coordinate transformation, neighbourhood-level GeoJSON mapping, interactive filtering, linked statistical charts, and cloud deployment. The dashboard helps users investigate how crime patterns vary by year, time of day, location, and incident type through coordinated map and chart interactions.
+
+**Highlights**
+
+Built a full Dash-based crime analytics dashboard from raw public crime data to deployed web app  
+Processed geospatial crime records and transformed projected coordinates into latitude/longitude  
+Aligned neighbourhood crime data with Vancouver GeoJSON boundaries for choropleth mapping  
+Implemented interactive filters for year, crime type, and time-of-day exploration  
+Added click-to-zoom neighbourhood drilldown with point-level incident visualization  
+Designed linked summary panels and analytical charts for monthly, hourly, yearly, and category trends  
+Deployed the dashboard as a live web application using Gunicorn and Render  
+
+**Tech Stack:** Python, Dash, Plotly, Pandas, GeoJSON, PyProj, Gunicorn, Render  
+
+🔗 [View the live dashboard](https://data-551-group8-project.onrender.com/)
+
 
 ### Traffic Accident Analysis
 Analyzed approximately **209,000 traffic accident records** across 24 variables.
