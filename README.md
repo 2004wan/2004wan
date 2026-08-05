@@ -80,12 +80,23 @@ Analyzed approximately **209,000 traffic accident records** across 24 variables.
 - Cleaned, categorized, and visualized large-scale accident data
 - Translated analytical findings into accessible visual explanations
 
-### Financial Data Analysis
-Applied data-processing and machine-learning techniques to financial and operational datasets.
+### Agentic PR Testing Analysis ###  
+A data-driven software engineering study on how AI coding agents contribute tests in pull requests using the AIDev dataset.
 
-- Built Python-based data-cleaning and feature-engineering workflows
-- Explored classification models including Logistic Regression, Random Forest, KNN, and XGBoost
-- Worked with technical indicators and portfolio-optimization concepts
+This project analyzes large-scale pull request data to understand testing behavior in agent-generated software changes. It detects test-related PRs from commit files, messages, and review comments, classifies test types such as unit, integration, and end-to-end tests, compares test-code churn with regular code churn across programming ecosystems, and investigates whether human developers intervene when agentic PRs lack tests.
+
+**Highlights**
+
+Built an analysis workflow for detecting test-related changes in AI-generated pull requests  
+Processed pull request, commit, review, and timeline data from the AIDev dataset  
+Classified test contributions by keyword-based signals from filenames, commit messages, and comments  
+Measured test-to-code churn ratios across programming language ecosystems  
+Analyzed human follow-up behavior through later commits and review comments  
+Generated result tables, visualizations, and final research reports for reproducible analysis  
+
+**Tech Stack:** Python, Pandas, Jupyter Notebook, Matplotlib, Hugging Face Datasets, Parquet
+
+🔗 [View the project on GitHub](https://github.com/2004wan/agentic-pr-testing-analysis)
 
 ---
 
