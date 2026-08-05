@@ -10,31 +10,126 @@ As AI continues to reshape the way we work and learn, I actively explore tools s
 
 What makes me happiest is not only building something that works, but also discussing ideas, collaborating with people, and turning technical results into explanations that others can understand.
 
-## About Me
+---
 
-- 🤖 Interested in Machine Learning, Computer Vision, and AI Applications
-- 📊 Experienced in Python, SQL, PyTorch, scikit-learn, and data visualization
-- 🌏 Experienced in international and cross-functional team collaboration
-- 💼 Open to opportunities in Data Science, AI, Analytics, and Technology Consulting
+## 🧭 What I'm Currently Exploring
 
-## Featured Projects
+- Machine learning and computer vision
+- Algorithms and data structures
+- AI-assisted software development
+- Data analytics and visualization
+- Practical applications of large language models
+- Communicating technical insights to non-technical audiences
 
-### Intelligent Security Video Action Recognition
-Developed an end-to-end security video understanding pipeline using CLIP, X-CLIP, SVM, CoOp tuning, and multimodal verification.
+---
+
+## 🤖 Machine Learning & AI
+
+### Security Video Action Recognition
+Developed an end-to-end video understanding pipeline for recognizing security-related actions in CCTV footage.
+
+- Explored CLIP, X-CLIP, CoOp tuning, SVM, and multimodal verification
+- Contributed to video preprocessing, model evaluation, pipeline development, and result presentation
+- Achieved a Macro-F1 score of **0.858** using an X-CLIP and Qwen-based hybrid pipeline
 
 ### FoodVision Transfer Learning Platform
-Conducted 10 transfer-learning experiments using ResNet18 and EfficientNetV2-S, including BN tuning, LoRA, TSA, and full fine-tuning.
+Built a transfer-learning experimentation and visualization platform based on the Food-101 dataset.
+
+- Compared ResNet18 and EfficientNetV2-S
+- Conducted 10 experiments involving baseline training, BN tuning, LoRA, TSA, and full fine-tuning
+- Achieved **83.9% clean accuracy** and **68.6% robustness accuracy** with EfficientNetV2-S and BN tuning
+
+### AI-Generated Code Testing Research
+Analyzed testing practices in GitHub pull requests involving AI-generated code.
+
+- Designed logic to identify test presence, test types, and human feedback
+- Processed and summarized large-scale GitHub pull-request data
+- Found that approximately **1.8%** of the analyzed AI-related pull requests included detectable testing changes
+
+---
+
+## 📊 Data Analytics & Visualization
 
 ### Vancouver Crime Analytics Dashboard
-Built an interactive dashboard that allows users to explore crime patterns by neighborhood, time, crime category, and geographic location.
+Developed an interactive dashboard based on Vancouver crime data from 2019 to 2023.
 
-## Technical Skills
+- Supported filtering by neighborhood, time, crime type, and geographic location
+- Created maps, trend charts, and interactive analytical views
+- Designed the platform for renters, homebuyers, tourists, and newcomers
 
-**Programming:** Python, SQL  
-**Machine Learning:** PyTorch, scikit-learn, XGBoost, Transfer Learning  
-**Data Analysis:** Pandas, NumPy, Excel, Plotly, Tableau  
-**Tools:** Git, GitHub, AWS, VS Code, Dash  
+### Traffic Accident Analysis
+Analyzed approximately **209,000 traffic accident records** across 24 variables.
 
-## Connect with Me
+- Investigated relationships among accident frequency, severity, weather, road conditions, and time
+- Cleaned, categorized, and visualized large-scale accident data
+- Translated analytical findings into accessible visual explanations
 
-- LinkedIn: https://www.linkedin.com/in/yiran-267266262/
+### Financial Data Analysis
+Applied data-processing and machine-learning techniques to financial and operational datasets.
+
+- Built Python-based data-cleaning and feature-engineering workflows
+- Explored classification models including Logistic Regression, Random Forest, KNN, and XGBoost
+- Worked with technical indicators and portfolio-optimization concepts
+
+---
+
+## 💻 Applications & Software Projects
+
+### Python Quizzing Application
+Developed components of a Python-based educational quiz application.
+
+- Worked on backend logic and application functionality
+- Practiced modular programming, debugging, and collaborative development
+
+### Interactive Data Applications
+Built interactive analytical tools using Dash and Plotly.
+
+- Converted raw datasets into accessible user-facing applications
+- Focused on usability, filtering logic, visual clarity, and communication of results
+
+---
+
+## 🛠️ Technical Toolkit
+
+**Programming**
+
+`Python` `SQL` `R`
+
+**Machine Learning & AI**
+
+`PyTorch` `scikit-learn` `XGBoost` `Transfer Learning`  
+`Computer Vision` `CLIP` `Vision-Language Models`
+
+**Data Analysis & Visualization**
+
+`Pandas` `NumPy` `Excel` `Plotly` `Dash` `Tableau`
+
+**Development & Cloud**
+
+`Git` `GitHub` `VS Code` `AWS`
+
+**AI-Assisted Workflow**
+
+`ChatGPT` `Codex` `Gemini` `DeepSeek`
+
+---
+
+## 🌱 Beyond the Code
+
+I enjoy working in collaborative and international environments. During my undergraduate and graduate studies, I regularly worked with teammates and professors from different cultural and academic backgrounds.
+
+I particularly enjoy:
+
+- Discussing ideas and learning from others
+- Presenting technical work in a clear and natural way
+- Connecting technical findings with practical needs
+- Helping teams organize information and move projects forward
+
+I believe strong technical work becomes more valuable when it can be clearly communicated and effectively applied.
+
+---
+
+## 📫 Connect with Me
+
+- **LinkedIn:** [Add your LinkedIn URL]
+- **Email:** [Add your email address]
