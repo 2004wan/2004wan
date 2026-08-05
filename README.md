@@ -196,5 +196,4 @@ I believe strong technical work becomes more valuable when it can be clearly com
 
 ## 📫 Connect with Me
 
-- **LinkedIn:** [Add your LinkedIn URL]
-- **Email:** [Add your email address]
+
