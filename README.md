@@ -60,6 +60,8 @@ This project combines a PySide6 desktop interface with reproducible PyTorch trai
 **Tech Stack:** Python, PyTorch, Torchvision, PySide6, Pillow, Matplotlib, JSON-based model specs
 
 🔗 [View the project on GitHub](https://github.com/2004wan/ModelCraft-Studio)
+
+
 ---
 
 ## 📊 Data Analytics & Visualization
