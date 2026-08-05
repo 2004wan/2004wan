@@ -84,6 +84,7 @@ This project turns public Vancouver crime records into an end-to-end visual anal
 **Tech Stack:** Python, Dash, Plotly, Pandas, GeoJSON, PyProj, Gunicorn, Render  
 
 🔗 [View the live dashboard](https://data-551-group8-project.onrender.com/)
+(It may take a few minutes)
 
 
 ### Traffic Accident Analysis
