@@ -66,20 +66,20 @@ This project combines a PySide6 desktop interface with reproducible PyTorch trai
 
 ## 📊 Data Analytics & Visualization
 
-**VanCrime Lens**  
+### VanCrime Lens ###
 An interactive geospatial dashboard for exploring Vancouver crime patterns across neighbourhoods, time periods, and crime categories.
 
 This project turns public Vancouver crime records into an end-to-end visual analytics workflow: data cleaning, coordinate transformation, neighbourhood-level GeoJSON mapping, interactive filtering, linked statistical charts, and cloud deployment. The dashboard helps users investigate how crime patterns vary by year, time of day, location, and incident type through coordinated map and chart interactions.
 
 **Highlights**
 
-Built a full Dash-based crime analytics dashboard from raw public crime data to deployed web app  
-Processed geospatial crime records and transformed projected coordinates into latitude/longitude  
-Aligned neighbourhood crime data with Vancouver GeoJSON boundaries for choropleth mapping  
-Implemented interactive filters for year, crime type, and time-of-day exploration  
-Added click-to-zoom neighbourhood drilldown with point-level incident visualization  
-Designed linked summary panels and analytical charts for monthly, hourly, yearly, and category trends  
-Deployed the dashboard as a live web application using Gunicorn and Render  
+- Built an end-to-end geospatial crime analytics dashboard from raw public records to a deployed web application
+- Processed large-scale Vancouver crime data and converted projected coordinates into map-ready latitude/longitude values
+- Aligned incident records with neighbourhood GeoJSON boundaries to support choropleth mapping and spatial drilldown
+- Implemented coordinated interactions across filters, maps, summary statistics, and analytical charts
+- Added neighbourhood click-to-zoom exploration with point-level incident visualization and dynamic map updates
+- Designed time-based analysis views for yearly trends, monthly patterns, hourly distributions, and volatility changes
+- Deployed the dashboard with a production-ready Dash, Gunicorn, and Render workflow
 
 **Tech Stack:** Python, Dash, Plotly, Pandas, GeoJSON, PyProj, Gunicorn, Render  
 
