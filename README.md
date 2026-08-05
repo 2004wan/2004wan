@@ -25,12 +25,18 @@ What makes me happiest is not only building something that works, but also discu
 
 ## 🤖 Machine Learning & AI
 
-### Security Video Action Recognition
-Developed an end-to-end video understanding pipeline for recognizing security-related actions in CCTV footage.
+### 🛡️ VLM-Based Security Action Detection for Real-Time Video Monitoring
 
-- Explored CLIP, X-CLIP, CoOp tuning, SVM, and multimodal verification
-- Contributed to video preprocessing, model evaluation, pipeline development, and result presentation
-- Achieved a Macro-F1 score of **0.858** using an X-CLIP and Qwen-based hybrid pipeline
+This project explores how vision-language models can detect security-relevant actions in video streams with limited labeled data. Using Fujitsu Intelligence’s annotated video dataset, our team developed an end-to-end action recognition pipeline that converts raw videos into fixed-length clips, aligns them with CVAT annotations, and evaluates multiple model families, including CLIP, X-CLIP, ViCLIP, Qwen-VL, prototype-based methods, and CoOp prompt tuning.
+
+The project focuses on practical deployment trade-offs rather than offline accuracy alone. We evaluated models across accuracy, precision, recall, F1-score, inference latency, prompt sensitivity, and output reliability. Our best-performing solution combines a fast CoOp-tuned X-CLIP detector with a lightweight Qwen-VL verifier for uncertain cases, achieving a **Macro-F1 score of 0.858** while maintaining low latency for near-real-time monitoring.
+
+The system supports multiple security-related actions, including fence jumping, vault jumping, falling down, kicking, and punching. It includes both offline evaluation workflows and a real-time webcam inference pipeline.
+
+**Technologies:** Python, PyTorch, OpenCV, CLIP, X-CLIP, Qwen-VL, CoOp, SVM, CVAT
+
+🔗 [View the project on GitHub](https://github.com/2004wan/VLM-Security-Action-Detection)
+
 
 ### FoodVision Transfer Learning Platform
 Built a transfer-learning experimentation and visualization platform based on the Food-101 dataset.
