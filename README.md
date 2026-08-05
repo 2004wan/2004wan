@@ -86,13 +86,37 @@ This project turns public Vancouver crime records into an end-to-end visual anal
 🔗 [View the live dashboard](https://data-551-group8-project.onrender.com/)
 (It may take a few minutes)
 
+### CrashCast ###
+An interpretable traffic accident risk analysis project for exploring how weather, time, roadway conditions, and crash context relate to accident severity.
 
-### Traffic Accident Analysis
-Analyzed approximately **209,000 traffic accident records** across 24 variables.
+This project turns public traffic accident records into an end-to-end analytical workflow: data cleaning, exploratory analysis, severity scoring, predictive modeling, interaction analysis, and scenario-based crash profiling. The analysis investigates whether adverse weather conditions meaningfully increase accident severity, while also identifying stronger contextual risk factors such as crash type, number of vehicles, traffic control devices, lighting conditions, time of day, and contributory causes.
 
-- Investigated relationships among accident frequency, severity, weather, road conditions, and time
-- Cleaned, categorized, and visualized large-scale accident data
-- Translated analytical findings into accessible visual explanations
+**Highlights**
+
+- Built an end-to-end traffic accident severity analysis workflow from raw crash records to cleaned data, exploratory analysis, modeling, and interpretation
+
+- Processed over 209,000 traffic accident records with weather, temporal, roadway, injury, and crash-context variables
+
+- Created analysis-ready data with derived datetime, year, day-name, and injury indicator features for downstream modeling
+
+- Explored accident frequency and severity patterns across weather conditions, hours of day, weekdays, months, and traffic control types
+
+- Tested the relationship between weather and injury severity using contingency analysis and practical effect-size interpretation
+
+- Developed severity prediction models using Random Forest, Ridge Regression, and Lasso Regression to compare predictive performance and feature importance
+
+- Built an interpretable logistic regression model with interaction terms for weather, rush hour, night conditions, and pedestrian-related risk
+
+- Applied PCA and clustering to identify common crash profiles and higher-risk accident scenarios for operational planning
+
+- Generated cluster summary tables and slide-ready labels to support presentation storytelling and scenario-based interpretation
+
+- Found that weather alone has limited explanatory power, while crash type, number of units, damage level, traffic control, contributory cause, and time patterns are more informative for severity risk
+
+**Tech Stack:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, SciPy, Jupyter Notebook, PCA, KMeans, Logistic Regression, Random Forest, Ridge Regression, Lasso Regression
+
+🔗 [View the project on GitHub](https://github.com/2004wan/CrashCast-Weather-and-Time-Based-Traffic-Accident-Risk-Analysis)
+
 
 ### Agentic PR Testing Analysis ###  
 A data-driven software engineering study on how AI coding agents contribute tests in pull requests using the AIDev dataset.
