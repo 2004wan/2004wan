@@ -58,6 +58,7 @@ This project combines a PySide6 desktop interface with reproducible PyTorch trai
 - Integrated experiment logs, accuracy curves, confusion matrices, efficiency plots, and Grad-CAM previews
 
 **Tech Stack:** Python, PyTorch, Torchvision, PySide6, Pillow, Matplotlib, JSON-based model specs
+
 🔗 [View the project on GitHub](https://github.com/2004wan/ModelCraft-Studio)
 ---
 
